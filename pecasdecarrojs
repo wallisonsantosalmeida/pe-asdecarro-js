@@ -1,0 +1,31 @@
+//•	Se a peça possuir um peso superior a 100gramas, pode cadastrar.
+//•	Dada a capacidade de cada caixa, caso a lista de peças seja superior a 10, imprima uma mensagem informando não ter capacidade suficiente.
+//•	Caso a peça tenha um nome com quantidade inferior a 3 caracteres, informe uma mensagem de erro.
+   
+
+// enviar apostila
+// pdf da atividade
+
+let listaqtdpecas = 10;
+let peso = 100;
+let nomepeca = "filtro de ar";
+
+
+if(listaqtdpecas >= 10) {
+    console.log("caixa sem capacidade, superior a 10!")
+} 
+
+
+if(peso >= 100) {
+    console.log("peça superiora 100 gramas, pode cadastra!")
+}   else {
+    console.log("peça inferior a 100 gramas, não pode cadastrar!")
+}
+
+
+    console.log(nomepeca);
+    console.log(nomepeca.length);
+
+if(nomepeca.length<3) {
+    console.log("nome invalido para cadastro deve conter mais de caracteres")
+}    
